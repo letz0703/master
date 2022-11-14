@@ -1,5 +1,7 @@
-import React from "react";
+import React from "react"
+import {Article, Brand, CTA} from './components'
 
 export default function App() {
-	return <div>letz GPT</div>;
+	return <div>App</div>
 }
+
