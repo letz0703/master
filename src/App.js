@@ -1,8 +1,21 @@
 import React from "react"
-import {Article, Brand, CTA} from './components'
-import {Blog} from './containers'
+import {Header, Blog,WhatGPT3, Features, Possibility, Footer} from './containers'
+import {CTA, Brand, Navbar} from './components'
 
 export default function App() {
-	return <div>App</div>
+	return <div className="App">
+		<div className="gradient__bg">
+			<Navbar />
+			<Header />
+		</div>
+		<Brand />
+		<WhatGPT3/>
+		<Features/>
+		<Possibility/>
+		<CTA/>
+		<Blog/>
+		<Footer />
+
+	</div>
 }
 
