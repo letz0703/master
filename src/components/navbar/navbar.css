@@ -115,6 +115,7 @@
   }
 }
 
+/* fob mobile */
 @media screen and (max-width: 550px) {
   .gpt3__navbar {
     padding: 2rem;
